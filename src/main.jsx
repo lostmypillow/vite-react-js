@@ -21,7 +21,7 @@ function App() {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/vite-react-js/'>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
