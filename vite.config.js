@@ -107,7 +107,7 @@ export default defineConfig({
     }),
     Unfonts({
       google: {
-        families: ["Yellowtail"],
+        families: ["Noto Sans TC"],
       },
     }),
   ],
