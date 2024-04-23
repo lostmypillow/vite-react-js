@@ -10,7 +10,11 @@ export default defineConfig({
   base: '/vite-react-js/',
   plugins: [
     react(),
-    Pages(),
+    Pages({
+      dirs: [
+        { dir: 'src/pages', baseRoute: 'vite-react-js' },
+      ]
+    }),
 
     AutoImport({
       // targets to transform
